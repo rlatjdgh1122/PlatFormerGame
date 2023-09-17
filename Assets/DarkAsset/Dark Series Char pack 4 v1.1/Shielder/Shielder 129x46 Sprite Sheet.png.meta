@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,1729 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3b8c04956f9c24eab68d27411ef1e9
+      internalID: 942894774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d938ef063a842e4b961e14712dcbe13
+      internalID: 226414230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab1ea3c4735f62468a22f272e960168
+      internalID: -698311611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a579441f0437c4c8cb57d544050282
+      internalID: -1345599141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60f1682f358511498762de40ce05c21
+      internalID: -2125381407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d25e3a5ae16b0a4f9552682e5999e9c
+      internalID: 709378027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93dadcd9e25559540a98a51edef814ba
+      internalID: 641630286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efe3c819045c524684e796357ee5c64
+      internalID: 284365215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4776ea02cd4ec94d8613694ce6f76cd
+      internalID: 1453407190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a511c64e5aea104abc28846ee7afaee
+      internalID: 2041717954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d89e980962a44943b58bb5996fd7bc7
+      internalID: 336206460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19059adec007cd45a86fa5e175d6bf7
+      internalID: 416517976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936fa0a27c7b14e4c907bdf46d966726
+      internalID: 312627384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647cc16efc398e346b25264d9342c985
+      internalID: 447026310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e1d95ca0c9ee4b82aed2b87d7ada7
+      internalID: -1974762440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271f90e06170bd34d8b19331d13ed4da
+      internalID: -896903504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 184
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a69246df095c514b86efc2d9a520626
+      internalID: -541648684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659db79ebae72fa4081af4cbe3960972
+      internalID: 1811610627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cc423faaa095244ab83b27386eaefd
+      internalID: -23489185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f02ac21e682493459ce1947c8b72db4
+      internalID: 1966534439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b8f0be903984478c855aa9bcca9e8
+      internalID: -1387564499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ef9555935beb1478af4b4417dd2fe9
+      internalID: -536357707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1277933a7c6c4097cc616db8b55f0
+      internalID: -795885676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e088f60c9c4d6b438442ed61cbfb0d0
+      internalID: 210942984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4ead32250db30489b989b1cde9dd1e
+      internalID: -2052803262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ba9e2f9d4f6e240bb94d906077fe81
+      internalID: -2063296803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c16ba9492ce6df47b79ea1a3804cb56
+      internalID: 769435726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070e5c0ec4967514ab2e8de524b7309d
+      internalID: -45369924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe0e4d17cfd0794dac4fdd556bb2c75
+      internalID: 804488287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0e09ecf50a50648bdafbde7a010402
+      internalID: 450960451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58efa1b3d7490b34c995a6416c28aef2
+      internalID: 1617998230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15220f2439c2ef34f871317660139021
+      internalID: -977899933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589e1300b5f78947b805e2d428e7754
+      internalID: 646775874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 138
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f512576d0e7668b42b748e1ed52fd6d2
+      internalID: -863447492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3c1e77745097d4da7a4605f07e00d1
+      internalID: -1598499993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589dc0a800e90f1419445d24648f22c4
+      internalID: -2102756374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2831d42772622d4a9aa5e4f3e7deb07
+      internalID: 1068901401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da60ab140ebbb66479e5b7f3b6132c34
+      internalID: -509205519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834ee5ede9b24b34b85f150d512adc0b
+      internalID: -587120172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501dd65f84fae24db044991425972ee
+      internalID: 769846149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002cab0b20ac77d449ca814fcb67a3b6
+      internalID: -938690166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d316950cf106b84ca239e6639f5e2cc
+      internalID: 612453419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6afb1ee0d8fcec47a23a5bad0ce115c
+      internalID: 1757898136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2522b5906c5af541a822d01a48a7ad2
+      internalID: -534884496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643b3a88877e9be49ad186b3c83f58a3
+      internalID: 1520638695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc94c4ca6ef7bf47a46845c23720013
+      internalID: 796641588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8b515e6f5b26d4c91dea08c86c66cd
+      internalID: -1191880023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666ba2006db732347b96a2a400ba2783
+      internalID: -87582237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d314fedc66af64290d574d33516caa
+      internalID: 1242501233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595b01ed4682909408cd0c4af046318c
+      internalID: -1859551566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 92
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11d5a2468230344ea193d64c82b00a7
+      internalID: -836055389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb2b69b65103ba4c9072c03b624a38d
+      internalID: 1041314566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36362489767850c4f86369bde589039a
+      internalID: -273560835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b833a6ed7fd735a41af963ce72ba5ad6
+      internalID: -181018686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875582c689bd52148a15ab72d42c8a71
+      internalID: 707287877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d2bd8aec73f3d49a8c1e8769e83abd
+      internalID: 723617700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4a21cce99d7c54fb5b7bc69cf9f519
+      internalID: -27882974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda17dee90d01174ea6720689592d2e4
+      internalID: -2075086551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdfbbdb781bd20478bd2605eaa75aa1
+      internalID: -1130317842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf64b5cf5f8d444491a184720bf5159
+      internalID: -727634545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4e0a9bb2894c4cb842c78bd783d8f
+      internalID: -318310387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba88976c20ccfc44b01d14b3589a228
+      internalID: 858711189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07566d44ad96a674290044151ca0062d
+      internalID: -32010767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdc9958591f7ab48a5766749e890a3e
+      internalID: 1225714206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 46
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46df8318539490c4ba27bd05bfd4e157
+      internalID: 244561973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7e8835f8878804cbdfcfb0575adb56
+      internalID: 458123842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c426c4e3e8aa14a94c676a66f9e384
+      internalID: -1990440679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d69894cc6ccb4f9594050947d6648
+      internalID: -1151232472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38867ee6893e5847aa479078170dbbe
+      internalID: -1207178436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eb584479d25f548958669011326560
+      internalID: -985949422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103acbda5a16364681c33cb0e0bd51a
+      internalID: -104890505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9135e56f12d24924ea30f51180bfcb06
+      internalID: 614349050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa910b9fa14c57f4ba7e5b350d4c9776
+      internalID: -841304569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab81bcbe31f3cfb42be2a66c3268d78f
+      internalID: 2051328752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98ea22b562bef45805bafdc39c8c31
+      internalID: -1261244523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e083f1ec4ff7245ab440392c9724d4
+      internalID: 1755675691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289eec0d669e3b845ba00a5e1500b7e4
+      internalID: -261678348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ced55cac434344386ab494270df0ef
+      internalID: 1139451525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa9d99497a3a649936e62b1c44dd6b
+      internalID: -1540453620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cddd31708c2df41957eada1addf113
+      internalID: 1864002421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782ad44f07ed8ba4489a2a60ab1b9049
+      internalID: -1106344683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shielder 129x46 Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 0
+        width: 129
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0828ee6d6f397bb48bfcdc3c6d198c8f
+      internalID: 28530520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1848,89 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shielder 129x46 Sprite Sheet_51: 1041314566
+      Shielder 129x46 Sprite Sheet_19: 1966534439
+      Shielder 129x46 Sprite Sheet_41: 612453419
+      Shielder 129x46 Sprite Sheet_49: -1859551566
+      Shielder 129x46 Sprite Sheet_67: -1151232472
+      Shielder 129x46 Sprite Sheet_11: 416517976
+      Shielder 129x46 Sprite Sheet_72: -841304569
+      Shielder 129x46 Sprite Sheet_78: -1540453620
+      Shielder 129x46 Sprite Sheet_26: 769435726
+      Shielder 129x46 Sprite Sheet_14: -1974762440
+      Shielder 129x46 Sprite Sheet_23: 210942984
+      Shielder 129x46 Sprite Sheet_70: -104890505
+      Shielder 129x46 Sprite Sheet_48: 1242501233
+      Shielder 129x46 Sprite Sheet_55: 723617700
+      Shielder 129x46 Sprite Sheet_4: -2125381407
+      Shielder 129x46 Sprite Sheet_17: 1811610627
+      Shielder 129x46 Sprite Sheet_40: -938690166
+      Shielder 129x46 Sprite Sheet_5: 709378027
+      Shielder 129x46 Sprite Sheet_73: 2051328752
+      Shielder 129x46 Sprite Sheet_56: -27882974
+      Shielder 129x46 Sprite Sheet_58: -1130317842
+      Shielder 129x46 Sprite Sheet_53: -181018686
+      Shielder 129x46 Sprite Sheet_54: 707287877
+      Shielder 129x46 Sprite Sheet_7: 284365215
+      Shielder 129x46 Sprite Sheet_30: 1617998230
+      Shielder 129x46 Sprite Sheet_39: 769846149
+      Shielder 129x46 Sprite Sheet_61: 858711189
+      Shielder 129x46 Sprite Sheet_62: -32010767
+      Shielder 129x46 Sprite Sheet_21: -536357707
+      Shielder 129x46 Sprite Sheet_1: 226414230
+      Shielder 129x46 Sprite Sheet_15: -896903504
+      Shielder 129x46 Sprite Sheet_60: -318310387
+      Shielder 129x46 Sprite Sheet_20: -1387564499
+      Shielder 129x46 Sprite Sheet_10: 336206460
+      Shielder 129x46 Sprite Sheet_3: -1345599141
+      Shielder 129x46 Sprite Sheet_57: -2075086551
+      Shielder 129x46 Sprite Sheet_76: -261678348
+      Shielder 129x46 Sprite Sheet_63: 1225714206
+      Shielder 129x46 Sprite Sheet_36: 1068901401
+      Shielder 129x46 Sprite Sheet_38: -587120172
+      Shielder 129x46 Sprite Sheet_24: -2052803262
+      Shielder 129x46 Sprite Sheet_18: -23489185
+      Shielder 129x46 Sprite Sheet_22: -795885676
+      Shielder 129x46 Sprite Sheet_37: -509205519
+      Shielder 129x46 Sprite Sheet_45: 796641588
+      Shielder 129x46 Sprite Sheet_9: 2041717954
+      Shielder 129x46 Sprite Sheet_12: 312627384
+      Shielder 129x46 Sprite Sheet_64: 244561973
+      Shielder 129x46 Sprite Sheet_66: -1990440679
+      Shielder 129x46 Sprite Sheet_59: -727634545
+      Shielder 129x46 Sprite Sheet_79: 1864002421
+      Shielder 129x46 Sprite Sheet_68: -1207178436
+      Shielder 129x46 Sprite Sheet_27: -45369924
+      Shielder 129x46 Sprite Sheet_80: -1106344683
+      Shielder 129x46 Sprite Sheet_46: -1191880023
+      Shielder 129x46 Sprite Sheet_33: -863447492
+      Shielder 129x46 Sprite Sheet_2: -698311611
+      Shielder 129x46 Sprite Sheet_25: -2063296803
+      Shielder 129x46 Sprite Sheet_75: 1755675691
+      Shielder 129x46 Sprite Sheet_81: 28530520
+      Shielder 129x46 Sprite Sheet_31: -977899933
+      Shielder 129x46 Sprite Sheet_47: -87582237
+      Shielder 129x46 Sprite Sheet_16: -541648684
+      Shielder 129x46 Sprite Sheet_52: -273560835
+      Shielder 129x46 Sprite Sheet_43: -534884496
+      Shielder 129x46 Sprite Sheet_28: 804488287
+      Shielder 129x46 Sprite Sheet_29: 450960451
+      Shielder 129x46 Sprite Sheet_34: -1598499993
+      Shielder 129x46 Sprite Sheet_6: 641630286
+      Shielder 129x46 Sprite Sheet_35: -2102756374
+      Shielder 129x46 Sprite Sheet_50: -836055389
+      Shielder 129x46 Sprite Sheet_42: 1757898136
+      Shielder 129x46 Sprite Sheet_44: 1520638695
+      Shielder 129x46 Sprite Sheet_65: 458123842
+      Shielder 129x46 Sprite Sheet_13: 447026310
+      Shielder 129x46 Sprite Sheet_77: 1139451525
+      Shielder 129x46 Sprite Sheet_32: 646775874
+      Shielder 129x46 Sprite Sheet_69: -985949422
+      Shielder 129x46 Sprite Sheet_71: 614349050
+      Shielder 129x46 Sprite Sheet_74: -1261244523
+      Shielder 129x46 Sprite Sheet_0: 942894774
+      Shielder 129x46 Sprite Sheet_8: 1453407190
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
