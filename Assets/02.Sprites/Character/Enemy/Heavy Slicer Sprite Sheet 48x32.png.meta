@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1216,10 +1216,10 @@ TextureImporter:
       Heavy Slicer Sprite Sheet 48x32_11: -19628048
       Heavy Slicer Sprite Sheet 48x32_39: -1061893888
       Heavy Slicer Sprite Sheet 48x32_49: 239952512
-      Heavy Slicer Sprite Sheet 48x32_35: -820303777
+      Heavy Slicer Sprite Sheet 48x32_19: 144564203
       Heavy Slicer Sprite Sheet 48x32_1: -1406932720
       Heavy Slicer Sprite Sheet 48x32_41: 1746916559
-      Heavy Slicer Sprite Sheet 48x32_19: 144564203
+      Heavy Slicer Sprite Sheet 48x32_35: -820303777
       Heavy Slicer Sprite Sheet 48x32_40: 362419053
       Heavy Slicer Sprite Sheet 48x32_37: -766895773
       Heavy Slicer Sprite Sheet 48x32_24: 1220432186
