@@ -11,7 +11,7 @@ public class InputReader : ScriptableObject, IPlayerActions
 {
     public event Action<Vector2> MovementEvent;
     public event Action<bool> JumpEvent;
-    public event Action<bool> DashEvent;
+    public event Action<Vector2> DashEvent;
     public Vector2 AimPostion { get; private set; }
 
     private InputSystem _input;
@@ -47,8 +47,7 @@ public class InputReader : ScriptableObject, IPlayerActions
     public void OnDash(InputAction.CallbackContext context)
     {
         Debug.Log("OnDash");
-        if (context.started) DashEvent?.Invoke(true);
-        else DashEvent?.Invoke(false);
+        if (context.started) DashEvent?.Invoke(AimPostion);
     }
 
     public void OnAttack(InputAction.CallbackContext context)

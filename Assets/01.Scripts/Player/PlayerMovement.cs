@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     [SerializeField] private float speed = 3;
     [SerializeField] private float jumpPower = 10;
+    [SerializeField] private float dashPower = 10;
     [SerializeField] private LayerMask WhatIsGround;
 
     private Vector2 direction = Vector2.zero;
@@ -17,17 +18,16 @@ public class PlayerMovement : MonoBehaviour
         _rb = (Rigidbody2D)GetComponent("Rigidbody2D");
     }
 
-    public void OnConnect_Dash()
+    public void OnConnect_Dash(Vector2 value)
     {
-        if(isStopped) return;
-        isStopped = true;
-
         Debug.Log("OnConnect_Dash");
-        _rb.velocity = Vector3.right * 100;
+        // if (Physics2D.Raycast(transform.position, Vector3.down, .5f))
+        Debug.Log(value);
+        direction = value.normalized * dashPower;
     }
     public void OnConnect_Jump()
     {
-        if (Physics2D.Raycast(transform.position, Vector3.down, .7f))
+        if (Physics2D.Raycast(transform.position, Vector3.down, .5f))
             _rb.velocity = Vector3.up * jumpPower;
     }
     public void OnConnect_Movement(Vector2 value)
@@ -35,6 +35,10 @@ public class PlayerMovement : MonoBehaviour
         direction = value;
     }
 
+    public void StopImmediately()
+    {
+        direction = Vector2.zero;
+    }
     private void FixedUpdate()
     {
         if (isStopped == false)

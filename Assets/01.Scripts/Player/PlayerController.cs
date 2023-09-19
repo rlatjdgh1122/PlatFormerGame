@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("함수 연결")]
     [SerializeField] private UnityEvent<Vector2> OnMovement = null;
+    [SerializeField] private UnityEvent<Vector2> OnDash = null;
     [SerializeField] private UnityEvent OnJump = null;
-    [SerializeField] private UnityEvent OnDash = null;
     private void Start()
     {
         _inputReader.MovementEvent += OnHandleMovement;
@@ -20,14 +20,11 @@ public class PlayerController : MonoBehaviour
         _inputReader.DashEvent += OnHandleDash;
     }
 
-    private void OnHandleDash(bool value)
+    private void OnHandleDash(Vector2 value)
     {
         Debug.Log("OnHandleDash");
-        if (value == true)
-        {
-            Debug.Log("OnHandleDash : true  ");
-            OnDash?.Invoke();
-        }
+
+        OnDash?.Invoke(value);
     }
     private void OnHandleJump(bool value)
     {
@@ -50,5 +47,6 @@ public class PlayerController : MonoBehaviour
     {
         _inputReader.MovementEvent -= OnHandleMovement;
         _inputReader.JumpEvent -= OnHandleJump;
+        _inputReader.DashEvent -= OnHandleDash;
     }
 }
