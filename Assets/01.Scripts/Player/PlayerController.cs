@@ -12,12 +12,23 @@ public class PlayerController : MonoBehaviour
     [Header("함수 연결")]
     [SerializeField] private UnityEvent<Vector2> OnMovement = null;
     [SerializeField] private UnityEvent OnJump = null;
+    [SerializeField] private UnityEvent OnDash = null;
     private void Start()
     {
         _inputReader.MovementEvent += OnHandleMovement;
         _inputReader.JumpEvent += OnHandleJump;
+        _inputReader.DashEvent += OnHandleDash;
     }
 
+    private void OnHandleDash(bool value)
+    {
+        Debug.Log("OnHandleDash");
+        if (value == true)
+        {
+            Debug.Log("OnHandleDash : true  ");
+            OnDash?.Invoke();
+        }
+    }
     private void OnHandleJump(bool value)
     {
         if (value == true)

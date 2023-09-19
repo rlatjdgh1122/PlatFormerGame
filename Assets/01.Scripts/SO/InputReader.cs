@@ -10,7 +10,8 @@ using static InputSystem;
 public class InputReader : ScriptableObject, IPlayerActions
 {
     public event Action<Vector2> MovementEvent;
-    public event Action<bool> JumpEvent; 
+    public event Action<bool> JumpEvent;
+    public event Action<bool> DashEvent;
     public Vector2 AimPostion { get; private set; }
 
     private InputSystem _input;
@@ -25,6 +26,7 @@ public class InputReader : ScriptableObject, IPlayerActions
     }
     public void OnFirePos(InputAction.CallbackContext context)
     {
+        Debug.Log("마우스 위치");
         AimPostion = context.ReadValue<Vector2>();
     }
 
@@ -37,17 +39,20 @@ public class InputReader : ScriptableObject, IPlayerActions
     public void OnMovement(InputAction.CallbackContext context)
     {
         Debug.Log("움직이세요");
+
         Vector2 value = context.ReadValue<Vector2>();
         MovementEvent?.Invoke(value);
     }
 
     public void OnDash(InputAction.CallbackContext context)
     {
-        throw new NotImplementedException();
+        Debug.Log("OnDash");
+        if (context.started) DashEvent?.Invoke(true);
+        else DashEvent?.Invoke(false);
     }
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        throw new NotImplementedException();
+
     }
 }
