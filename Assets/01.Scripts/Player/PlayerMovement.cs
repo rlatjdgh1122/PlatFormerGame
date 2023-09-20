@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,10 +22,28 @@ public class PlayerMovement : MonoBehaviour
     public void OnConnect_Dash(Vector2 value)
     {
         Debug.Log("OnConnect_Dash");
-        // if (Physics2D.Raycast(transform.position, Vector3.down, .5f))
-        Debug.Log(value);
-        direction = value.normalized * dashPower;
+
+        StopImmediately();
+        StartCoroutine(Dash_Co(value));
     }
+
+    private IEnumerator Dash_Co(Vector2 value)
+    {
+        isStopped = true;
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, value.normalized, dashPower, WhatIsGround);
+        if (hit)
+        {
+            _rb.velocity = (Vector2)transform.position - (hit.point.normalized * dashPower);
+        }
+        else
+            _rb.velocity = (Vector2)transform.position - (value.normalized * dashPower);
+
+        yield return new WaitForSeconds(.5f);
+
+        isStopped = false;
+    }
+
     public void OnConnect_Jump()
     {
         if (Physics2D.Raycast(transform.position, Vector3.down, .5f))

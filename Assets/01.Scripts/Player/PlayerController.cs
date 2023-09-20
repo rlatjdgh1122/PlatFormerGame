@@ -1,3 +1,4 @@
+using Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private UnityEvent<Vector2> OnMovement = null;
     [SerializeField] private UnityEvent<Vector2> OnDash = null;
     [SerializeField] private UnityEvent OnJump = null;
+
+    [Header("스크립트 연결")]
+    [SerializeField] private CinemachineVirtualCamera Vcam = null;
+
+    //private CameraManager CameraManagerCompo = null;
+
+    private void Awake()
+    {
+        CameraManager.Instance = new CameraManager(transform, Vcam);
+    }
     private void Start()
     {
         _inputReader.MovementEvent += OnHandleMovement;
@@ -23,8 +34,8 @@ public class PlayerController : MonoBehaviour
     private void OnHandleDash(Vector2 value)
     {
         Debug.Log("OnHandleDash");
-
-        OnDash?.Invoke(value);
+        Vector2 mousePos = CameraManager.Instance.Maincam.ScreenToWorldPoint(value);
+        OnDash?.Invoke(mousePos);
     }
     private void OnHandleJump(bool value)
     {
