@@ -9,39 +9,40 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed = 3;
     [SerializeField] private float jumpPower = 10;
     [SerializeField] private float dashPower = 10;
+
     [SerializeField] private LayerMask WhatIsGround;
 
     private Vector2 direction = Vector2.zero;
 
-    private bool isStopped = false;
+    private bool isDash = false;
     private void Awake()
     {
         _rb = (Rigidbody2D)GetComponent("Rigidbody2D");
     }
-
+    private void FixedUpdate()
+    {
+        if (isDash)
+            _rb.velocity = direction.normalized * dashPower;
+        else
+            _rb.velocity = new Vector2(direction.x * speed, _rb.velocity.y);
+    }
     public void OnConnect_Dash(Vector2 value)
     {
         Debug.Log("OnConnect_Dash");
 
         StopImmediately();
-        StartCoroutine(Dash_Co(value));
+        OnConnect_Movement(value);
+
+        StartCoroutine(Co_Dash());
     }
 
-    private IEnumerator Dash_Co(Vector2 value)
+    private IEnumerator Co_Dash()
     {
-        isStopped = true;
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, value.normalized, dashPower, WhatIsGround);
-        if (hit)
-        {
-            _rb.velocity = (Vector2)transform.position - (hit.point.normalized * dashPower);
-        }
-        else
-            _rb.velocity = (Vector2)transform.position - (value.normalized * dashPower);
-
+        isDash = true;
         yield return new WaitForSeconds(.5f);
+        StopImmediately();
+        isDash = false;
 
-        isStopped = false;
     }
 
     public void OnConnect_Jump()
@@ -58,9 +59,5 @@ public class PlayerMovement : MonoBehaviour
     {
         direction = Vector2.zero;
     }
-    private void FixedUpdate()
-    {
-        if (isStopped == false)
-            _rb.velocity = new Vector2(direction.x * speed, _rb.velocity.y);
-    }
+
 }
