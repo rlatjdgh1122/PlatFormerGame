@@ -26,7 +26,6 @@ public class InputReader : ScriptableObject, IPlayerActions
     }
     public void OnFirePos(InputAction.CallbackContext context)
     {
-        Debug.Log("마우스 위치");
         AimPostion = context.ReadValue<Vector2>();
     }
 

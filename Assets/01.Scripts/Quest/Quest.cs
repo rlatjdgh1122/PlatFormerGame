@@ -164,6 +164,12 @@ public class Quest : ScriptableObject
 
 
     }
+    public Quest Clone()
+    {
+        var clone = Instantiate(this);
+        clone._taskGroups = _taskGroups.Select(x => new TaskGroup(x)).ToArray();
+        return clone;
+    }
     private void OnSuccessChanged(Task task, int currentSuccess, int prevSuccess)
         => onTaskSuccessChanged?.Invoke(this, task, currentSuccess, prevSuccess);
 

@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _category: {fileID: 11400000, guid: 44225cfee069c3c4792c552344d55915, type: 2}
   _icon: {fileID: 21300000, guid: 78a41b9eebad58b4aab0266a5ac3085d, type: 3}
-  _codeName: 
-  _displayName: 
-  _description: 
+  _codeName: TEST
+  _displayName: test
+  _description: Test Quest
   _taskGroups:
   - tasks:
     - {fileID: 11400000, guid: 1c30a8ed8fdb6e848a66161d7eb056b3, type: 2}
-  _useAutoComplete: 0
+  _useAutoComplete: 1
   _isCancelable: 0
   _acceptionConditions: []
   _cancelConditions: []

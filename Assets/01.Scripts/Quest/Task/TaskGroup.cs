@@ -24,6 +24,10 @@ public class TaskGroup
     public bool IsComplete => State == TaskGroupState.Complete;
     public TaskGroupState State { get; private set; }
 
+    public TaskGroup(TaskGroup copyTarget)
+    {
+        tasks = copyTarget.Tasks.Select(x => Object.Instantiate(x)).ToArray();
+    }
     public void SetUp(Quest owner)
     {
         Owner = owner;
