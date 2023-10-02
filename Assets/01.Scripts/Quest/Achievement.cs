@@ -6,7 +6,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Quest/Acievement", fileName = "Achievement_")]
 public class Achievement : Quest
 {
-    public override bool IsCanelable => base.IsCanelable;
+    public override bool IsCanelable => false;
+    public override bool IsSavable => true;
     public override void Cancel()
     {   
         base.Cancel();

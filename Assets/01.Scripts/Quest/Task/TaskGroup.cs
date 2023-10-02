@@ -38,6 +38,7 @@ public class TaskGroup
     public void Start()
     {
         State = TaskGroupState.Running;
+
         foreach (var task in tasks)
             task.Start();
     }

@@ -14,6 +14,7 @@ public class QuestSystemTest : MonoBehaviour
     private void Start()
     {
         var questSystem = QuestSystem.Instance;
+
         questSystem.onQuestRegistered += (quest) =>
         {
             print($"new Quest : {quest.CodeName} Registered");

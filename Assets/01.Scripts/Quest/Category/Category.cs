@@ -32,7 +32,7 @@ public class Category : ScriptableObject, IEquatable<Category>
     }
     public override int GetHashCode() => (codeName, displayName).GetHashCode();
 
-    public override bool Equals(object other) => base.Equals(other);
+    public override bool Equals(object other) => Equals(other as Category);
 
     public static bool operator ==(Category lhs, string rhs)
     {

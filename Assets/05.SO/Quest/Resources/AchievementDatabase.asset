@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f030d8b25d577f46a834c8d1f549fac, type: 3}
   m_Name: AchievementDatabase
   m_EditorClassIdentifier: 
-  _quests:
-  - {fileID: 11400000, guid: 76fffaddcf72bb24d9276eb43a8dd429, type: 2}
+  _quests: []

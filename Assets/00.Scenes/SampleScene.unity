@@ -647,6 +647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839196962}
   - component: {fileID: 839196963}
+  - component: {fileID: 839196964}
   m_Layer: 0
   m_Name: QuestSystemTest
   m_TagString: Untagged
@@ -676,9 +677,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839196961}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb1fdd89decadc94cba189a88832604d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _quest: {fileID: 11400000, guid: 2df2ce58d716980409ab72b87729077f, type: 2}
+  _category: {fileID: 11400000, guid: 44225cfee069c3c4792c552344d55915, type: 2}
+  _target: {fileID: 11400000, guid: e5d9ee43396eb8a4e8f6a9e79b6356e9, type: 2}
+--- !u!114 &839196964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839196961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762248f4e31e9f0498a2aea267902917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _quest: {fileID: 11400000, guid: 2df2ce58d716980409ab72b87729077f, type: 2}

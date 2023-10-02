@@ -50,6 +50,8 @@ public class Quest : ScriptableObject
     private bool _useAutoComplete;
     [SerializeField]
     private bool _isCancelable;
+    [SerializeField]
+    private bool _isSavable;
 
     [Header("Condition")]
     [SerializeField]
@@ -76,12 +78,12 @@ public class Quest : ScriptableObject
     public IReadOnlyList<Reward> Rewards => _rewards;
 
     public bool IsRegistered => State != QuestState.InActive;
-
     public bool IsComplatable => State == QuestState.WaitingForCompletion;
     public bool IsComplete => State == QuestState.Complete;
     public bool IsCancel => State == QuestState.Cancel;
     public virtual bool IsCanelable => _isCancelable && _cancelConditions.All(x => x.IsPass(this));
     public bool IsAcceptable => _acceptionConditions.All(x => x.IsPass(this));
+    public virtual bool IsSavable => _isSavable;
 
 
     public TaskSuccessChangedHandler onTaskSuccessChanged;
@@ -107,7 +109,7 @@ public class Quest : ScriptableObject
     }
     public void ReceiveReport(string category, object target, int successCount)
     {
-        Debug.Assert(IsRegistered == false, "This quest has already been registered.");
+        Debug.Assert(IsRegistered == true, "This quest has already been registered.");
         Debug.Assert(IsCancel == false, "This quest has been canceled.");
 
         if (IsComplete) return; //성공해도 확인하는 경우도 있기에 리턴으로 해줌
@@ -170,13 +172,40 @@ public class Quest : ScriptableObject
         clone._taskGroups = _taskGroups.Select(x => new TaskGroup(x)).ToArray();
         return clone;
     }
+    public QuestSaveData ToSaveData()
+    {
+        return new QuestSaveData
+        {
+            codeName = CodeName,
+            state = State,
+            taskGroupIndex = _currentTaskGroupIndex,
+            taskSuccessCounts = CurrentTaskGroup.Tasks.Select(x => x.CurrentSuccess).ToArray()
+        };
+    }
+    public void LoadFrom(QuestSaveData saveData)
+    {
+        State = saveData.state;
+        _currentTaskGroupIndex = saveData.taskGroupIndex;
+        for (int i = 0; i < _currentTaskGroupIndex; i++)
+        {
+            var taskGroup = TaskGroups[i];
+            taskGroup.Start();
+            taskGroup.Complete();
+        }
+        for (int i = 0; i < saveData.taskSuccessCounts.Length; i++)
+        {
+            CurrentTaskGroup.Start();
+            CurrentTaskGroup.Tasks[i].CurrentSuccess = saveData.taskSuccessCounts[i];
+        }
+    }
+
     private void OnSuccessChanged(Task task, int currentSuccess, int prevSuccess)
-        => onTaskSuccessChanged?.Invoke(this, task, currentSuccess, prevSuccess);
+            => onTaskSuccessChanged?.Invoke(this, task, currentSuccess, prevSuccess);
 
     [Conditional("UNITY_EDITOR")]
     private void CheckIsRunning()
     {
-        Debug.Assert(IsRegistered == false, "This quest has already been registered.");
+        Debug.Assert(IsRegistered == true, "This quest has already been registered.");
         Debug.Assert(IsCancel == false, "This quest has been canceled.");
         Debug.Assert(IsComplete == false, "This quest has already been Completed.");
     }
