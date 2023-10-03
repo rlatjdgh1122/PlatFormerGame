@@ -8,7 +8,6 @@ public enum TaskGroupState
     InActive,
     Running,
     Complete,
-
 }
 
 [System.Serializable]
@@ -16,10 +15,8 @@ public class TaskGroup
 {
     [SerializeField]
     private Task[] tasks;
-
     public IReadOnlyList<Task> Tasks => tasks;
-
-    public Quest Owner { get; private set; }
+    public Quest Owner { get; private set; } 
     public bool IsAllTaskComplete => tasks.All(x => x.IsComplete);
     public bool IsComplete => State == TaskGroupState.Complete;
     public TaskGroupState State { get; private set; }
@@ -31,6 +28,7 @@ public class TaskGroup
     public void SetUp(Quest owner)
     {
         Owner = owner;
+
         foreach (var task in tasks)
             task.SetUp(owner);
     }

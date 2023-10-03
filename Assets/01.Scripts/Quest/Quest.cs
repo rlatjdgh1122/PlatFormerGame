@@ -85,7 +85,6 @@ public class Quest : ScriptableObject
     public bool IsAcceptable => _acceptionConditions.All(x => x.IsPass(this));
     public virtual bool IsSavable => _isSavable;
 
-
     public TaskSuccessChangedHandler onTaskSuccessChanged;
     public CompletedHandler onCompleted;
     public CanceledHandler onCanceled;
@@ -112,7 +111,8 @@ public class Quest : ScriptableObject
         Debug.Assert(IsRegistered == true, "This quest has already been registered.");
         Debug.Assert(IsCancel == false, "This quest has been canceled.");
 
-        if (IsComplete) return; //성공해도 확인하는 경우도 있기에 리턴으로 해줌
+        if (IsComplete) return; 
+        //성공해도 확인하는 경우도 있기에 리턴으로 해줌
 
         CurrentTaskGroup.ReceiveReport(category, target, successCount);
 
@@ -129,12 +129,14 @@ public class Quest : ScriptableObject
             {
                 var prevTaskGroup = _taskGroups[_currentTaskGroupIndex++];
                 prevTaskGroup.End();
+
                 CurrentTaskGroup.Start();
                 onNewTaskGroup?.Invoke(this, CurrentTaskGroup, prevTaskGroup);
             }
         }
         else
-            State = QuestState.Running; //Task가 완료가 되었어도 계속 보고받는 옵션때문에 설정
+            State = QuestState.Running; 
+        //Task가 완료가 되었어도 계속 보고받는 옵션때문에 설정
     }
     public void Complete()
     {
@@ -169,9 +171,11 @@ public class Quest : ScriptableObject
     public Quest Clone()
     {
         var clone = Instantiate(this);
+
         clone._taskGroups = _taskGroups.Select(x => new TaskGroup(x)).ToArray();
         return clone;
     }
+    #region JsonSave
     public QuestSaveData ToSaveData()
     {
         return new QuestSaveData
@@ -198,6 +202,7 @@ public class Quest : ScriptableObject
             CurrentTaskGroup.Tasks[i].CurrentSuccess = saveData.taskSuccessCounts[i];
         }
     }
+    #endregion
 
     private void OnSuccessChanged(Task task, int currentSuccess, int prevSuccess)
             => onTaskSuccessChanged?.Invoke(this, task, currentSuccess, prevSuccess);

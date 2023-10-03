@@ -14,8 +14,6 @@ public class Category : ScriptableObject, IEquatable<Category>
     public string CodeName => codeName;
     public string DisplayName => displayName;
 
-
-
     #region Operator
     public bool Equals(Category other)
     {

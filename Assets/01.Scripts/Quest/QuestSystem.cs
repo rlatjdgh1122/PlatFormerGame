@@ -39,11 +39,14 @@ public class QuestSystem : MonoBehaviour
             return instance;
         }
     }
-
+    [SerializeField]
     private List<Quest> activeQuests = new();
+    [SerializeField]
     private List<Quest> completedQuests = new();
 
+    [SerializeField]
     private List<Quest> activeAchievements = new();
+    [SerializeField]
     private List<Quest> completedAchievements = new();
 
     private QuestDatabase questDatabase;
@@ -60,6 +63,7 @@ public class QuestSystem : MonoBehaviour
     public IReadOnlyList<Quest> ActiveAchievements => activeAchievements;
     public IReadOnlyList<Quest> CompletedAchievements => completedAchievements;
 
+    public bool IsRegister => ActiveQuests.Count == 0;
     private void Awake()
     {
         questDatabase = Resources.Load<QuestDatabase>("QuestDatabase");

@@ -52,6 +52,7 @@ public class Task : ScriptableObject
         {
             int preSuccess = _currentSuccess;
             _currentSuccess = Mathf.Clamp(value, 0, NeedSuccessToCompelete);
+
             if (_currentSuccess != preSuccess)
             {
                 State = _currentSuccess == NeedSuccessToCompelete ? TaskState.Complete : TaskState.Running;
@@ -61,14 +62,14 @@ public class Task : ScriptableObject
     }
 
     [SerializeField]
-    private bool canReceiveReportsDuringCompletion; //TASK가 완료되었어도 계속 성공 횟 수를 보고할 것이냐
+    private bool canReceiveReportsDuringCompletion;
+    //TASK가 완료되었어도 계속 성공 횟 수를 보고할 것이냐
 
     private TaskState state;
 
     public StateChangedHandler onStateChanged;
     public SuccessChangedHandler onSuccessChanged;
     public Category Category => category;
-
     public TaskState State
     {
         get => state;
@@ -92,7 +93,7 @@ public class Task : ScriptableObject
         State = TaskState.Running;
 
         if (_initialSuccessValue)
-            _currentSuccess = _initialSuccessValue.GetValue(this);
+            CurrentSuccess = _initialSuccessValue.GetValue(this);
     }
     public void End()
     {
@@ -106,10 +107,10 @@ public class Task : ScriptableObject
     }
     public void Complete() //즉시 성공
     {
-        _currentSuccess = NeedSuccessToCompelete;    
+        CurrentSuccess = NeedSuccessToCompelete;
     }
     public bool IsTarget(string category, object target) //타겟인가
-        => 
+        =>
         _targets.Any(x => x.IsEqual(target))
         && Category == category
         && (IsComplete == false || (IsComplete && canReceiveReportsDuringCompletion));

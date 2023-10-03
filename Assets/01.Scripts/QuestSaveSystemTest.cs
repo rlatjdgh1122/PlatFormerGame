@@ -15,7 +15,7 @@ public class QuestSaveSystemTest : MonoBehaviour
     {
         var questSystem = QuestSystem.Instance;
 
-       if(questSystem.ActiveQuests.Count == 0)
+        if (questSystem.IsRegister)
         {
             Debug.Log("Register");
             var newQuest = questSystem.Register(_quest);
